@@ -8,14 +8,14 @@
   background-color: #eff3f4;
 }
 
-.q2_first_img{
+.q2_left_img{
   float: left;
   margin-right: 20px;
   margin-bottom: 10px;
 }
 
 
-.q2_second_img {
+.q2_right_img {
   float: right;
   margin-left: 20px;
   margin-bottom: 10px;
