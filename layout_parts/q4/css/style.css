@@ -4,14 +4,14 @@
 
 .q4_graybox{
   padding: 20px;
-  background-color: ghostwhite;
+  background-color:#ecf1f2;
 }
 
 .q4_box{
   width: 100%;
   display: table;
   padding-top: 20px;
-  background-color: ghostwhite;
+  background-color: #ecf1f2;
 }
 
 .q4_box:first-child{
@@ -19,9 +19,11 @@
 }
 
 .q4_orange{
+  width: 100px;
   padding: 20px;
   display: table-cell;
   text-align: center;
+  box-sizing: border-box;
   background-color: #fdc8b8;
 
 }
@@ -36,6 +38,7 @@
 .q4_bule{
   width: 100px;
   padding: 20px;
+  box-sizing: border-box;
   display: table-cell;
   text-align: center;
   background-color: #b6d8ed;
@@ -58,6 +61,7 @@
 .q4_green{
   width: 500px;
   padding: 20px;
+  box-sizing: border-box;
   display: table-cell;
   text-align: center;
   background-color: #8fdcad;
