@@ -10,12 +10,16 @@
 .q3_table th {
   padding: 10px;
   color: #ffff;
+  font-size: 18px;
+  line-height: 26px;
   background-color: #2244aa;
   border: solid 1px #dedede;
 }
 
 .q3_table td {
   padding: 10px;
+  font-size: 16px;
+  line-height: 22px;
   text-align: center;
   border: solid 1px #dedede;
 }
