@@ -16,8 +16,7 @@
 .q6_margin {
   width: 90px;
   padding: 10px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   text-align: center;
   background-color: #e6f2ff;
 }
