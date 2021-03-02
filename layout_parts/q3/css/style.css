@@ -28,8 +28,8 @@
   background-color: #ecf1f2;
 }
 
-.q3_table  tr:nth-child(4) {
-  border-bottom: dashed 2px  #000;
+.q3_table tbody tr:last-child {
+  border-top: dashed 2px #000;
 } 
 
 /* 回答はここに書いてね */
