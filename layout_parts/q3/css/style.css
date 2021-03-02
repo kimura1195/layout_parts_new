@@ -24,12 +24,12 @@
   border: solid 1px #dedede;
 }
 
-.q3_table tr:nth-child(odd){
+.q3_table tr:nth-child(even){
   background-color: #ecf1f2;
 }
 
-.q3_table tr:last-child {
-  border-top: dashed 2px  #000;
+.q3_table  tr:nth-child(4) {
+  border-bottom: dashed 2px  #000;
 } 
 
 /* 回答はここに書いてね */
