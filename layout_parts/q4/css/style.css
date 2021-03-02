@@ -10,12 +10,12 @@
 .q4_box{
   width: 100%;
   display: table;
-  padding-top: 20px;
+  margin-top: 20px;
   background-color: #ecf1f2;
 }
 
 .q4_box:first-child{
-  padding-top: 0;
+  margin-top: 0;
 }
 
 .q4_color {
