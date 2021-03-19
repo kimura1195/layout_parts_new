@@ -2,4 +2,131 @@
 
 /* 回答はここに書いてね */
 
+.clearfix::after {
+  content:"";
+  display: block;
+  clear: both;
+}
+
+.q7_text {
+  font-size: 16px;
+}
+
+.q7-textbox{
+  width: 225px;
+}
+
+.box_floattleft {
+  float: left;
+  box-sizing: border-box;
+}
+  
+.box_floatright {
+  float: left;
+  margin-left: 50px;
+  box-sizing: border-box;
+} 
+
+/*  width: 225px;
+  float: left;
+  margin-left: 50px;
+  box-sizing: border-box;
+  上記内容はまとめたほうがよさそう
+  まとめたうえで疑似要素使用 */
+
+.q7_table_contentsbox {
+  display: table;
+  /* text-align: center; */
+}
+
+.q7_tablebox_left {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.q7_tablebox_right{
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 50px;
+}
+
+.q7_1_left{
+  display: table-cell;
+}
+
+.q7_1_ight {
+  display: table-cell;
+}
+
+/* widthのサイズが小さいから改行されているかもしれない
+インラインブロック */
+
+.q7__inlinebox{
+  width: 500px;
+}
+
+.blockleft{
+  display: inline-block;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+
+.blockright:first-child{
+  margin-left: 0;
+}
+
+.blockright {
+  display: inline-block;
+  margin-left: 40px;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+
+
+.q7_flex-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.flex_left {
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+
+.flex_right {
+  width: 225px;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+
+.q7__contentsbox{
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.q7__contents{
+  display: inline-block;
+  box-sizing: border-box;
+  width: 300px;
+
+}
+
+.marginleft{
+ word-break: break-all;
+}
+ 
+.q7_variablebox{
+  display: inline-block;
+  width: 100%;
+  margin-left: -300px;
+  padding-left: 350px;
+  box-sizing: border-box;
+}
+
+.marginright{
+  word-break: break-all;
+}
+
+
 /* 回答はここに書いてね */
