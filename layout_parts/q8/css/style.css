@@ -14,22 +14,36 @@
   transition:all 0.5s;
 }
 
-.q8_img:hover{
-  transform: scale(1.5);
-}
-
-
  .q8_mask{ 
-  background-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 8);
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  width: 500px;
+  height: 333px;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .8));
+  transition: all 0.5s;
 }
 
 .q8_mask_text{
+  position: absolute;
   font-size: 16px;
   line-height: 16px;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  color: #FFF;
+  box-sizing: border-box;
+  word-break: break-all;
 }
 
+.q8_img:hover  {
+  transform: scale(1.5);
+}
 
-
+.q8_mask:hover{
+  bottom: 0;
+}  
 
 .q8_loader{
   width: 100px;
