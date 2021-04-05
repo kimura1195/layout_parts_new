@@ -37,11 +37,11 @@
   word-break: break-all;
 }
 
-.q8_img:hover  {
+.q8_frame:hover  .q8_img{
   transform: scale(1.5);
 }
 
-.q8_mask:hover{
+.q8_frame:hover .q8_mask{
   bottom: 0;
 }  
 
