@@ -15,7 +15,6 @@
   content: "";
   bottom: -39px;
   left: 50px;
-  margin-left: -20px;
   border:20px solid transparent;
   border-top:20px solid white;
   z-index: 2;
@@ -26,7 +25,6 @@
   position: absolute;
   bottom: -45px;
   left: 50px;
-  margin-left: -20px;
   border: 20px solid transparent;
   border-top: 20px solid #222;
   z-index: 1;
