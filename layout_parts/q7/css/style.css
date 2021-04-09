@@ -15,74 +15,47 @@
 .q7-textbox{
   width: 225px;
 }
-
-.box_floattleft {
-  float: left;
-  box-sizing: border-box;
-}
   
-.box_floatright {
+.box_float {
   float: left;
   margin-left: 50px;
   box-sizing: border-box;
 } 
 
-/*  width: 225px;
-  float: left;
-  margin-left: 50px;
-  box-sizing: border-box;
-  上記内容はまとめたほうがよさそう
-  まとめたうえで疑似要素使用 */
+.box_float:first-child{
+  margin-left: 0;
+}
 
 .q7_table_contentsbox {
   display: table;
-  /* text-align: center; */
 }
 
-.q7_tablebox_left {
+.q7_tablebox{
   display: table-cell;
-  vertical-align: middle;
-}
-
-.q7_tablebox_right{
-  display: table-cell;
-  vertical-align: middle;
   padding-left: 50px;
+  vertical-align: middle;
+  width: 225px;
 }
 
-.q7_1_left{
-  display: table-cell;
+.q7_tablebox:first-child{
+  padding-left: 0;
 }
-
-.q7_1_ight {
-  display: table-cell;
-}
-
-/* widthのサイズが小さいから改行されているかもしれない
-インラインブロック */
 
 .q7__inlinebox{
   width: 500px;
   font-size: 0;
 }
 
-.blockleft{
-  display: inline-block;
-  vertical-align: middle;
-  box-sizing: border-box;
-}
-
-.blockright:first-child{
-  margin-left: 0;
-}
-
-.blockright {
+.q7_inlineblock {
   display: inline-block;
   margin-left: 50px;
   vertical-align: middle;
   box-sizing: border-box;
 }
 
+.q7_inlineblock:first-child{
+  margin-left: 0;
+}
 
 .q7_flex-container {
   display: flex;
@@ -90,16 +63,12 @@
   align-items: flex-end;
 }
 
-.flex_left {
-  box-sizing: border-box;
-  vertical-align: middle;
-}
-
-.flex_right {
+.q7_flexbox {
   width: 225px;
   box-sizing: border-box;
   vertical-align: middle;
 }
+
 
 .q7_contentsbox{
   width: 100%;
@@ -123,10 +92,5 @@
   box-sizing: border-box;
   vertical-align: top;
 }
-
-.marginright{
-  word-break: break-all;
-}
-
 
 /* 回答はここに書いてね */
