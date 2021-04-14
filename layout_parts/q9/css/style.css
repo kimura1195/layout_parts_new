@@ -2,7 +2,7 @@
 
 /* 回答はここに書いてね */
 
-.q9_Speechballoon{
+.q9_Speechballoon {
   position: relative;
   margin: 0 auto;
   width: 500px;
@@ -11,27 +11,26 @@
   padding: 20px;
 }
 
-.q9_Speechballoon::before{
-  position: absolute;
+.q9_Speechballoon::before,
+.q9_Speechballoon::after {
   content: "";
-  bottom: -38px;
+  position: absolute;
   left: 30px;
   border:20px solid transparent;
-  border-top:20px solid white;
-  z-index: 2;
 }
 
-.q9_Speechballoon::after{
-  content: "";
-  position: absolute;
+.q9_Speechballoon::before {
   bottom: -45px;
-  left: 30px;
-  border: 20px solid transparent;
-  border-top: 20px solid #222;
-  z-index: 1;
+  border-top:20px solid#222;
 }
 
-.q9_Speechballoon_text{
+
+.q9_Speechballoon::after {
+  bottom: -39px;
+  border-top: 20px solid #fff;
+}
+
+.q9_Speechballoon_text {
   font-size: 16px;
   line-height: 16px;
 }
